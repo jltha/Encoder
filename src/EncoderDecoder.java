@@ -58,7 +58,7 @@ public class EncoderDecoder {
 
         String formattedEncodedText = encodedText.trim();
         if (formattedEncodedText.length() == 1) {
-            System.out.println("Please input a string with more than two characters");
+            System.out.println("Please input a string with more than one character");
             return null;
         }
 
